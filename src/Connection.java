@@ -25,7 +25,7 @@ public class Connection {
             connectionsCounter++;
             System.out.println(connectionsCounter);
         }
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         synchronized (this) {
             connectionsCounter--;
             System.out.println(connectionsCounter);
